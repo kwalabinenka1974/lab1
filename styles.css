@@ -1,0 +1,261 @@
+header {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 15%;
+    background-image: url(background.jpg);
+    clear: both;    
+}
+
+.Logo
+{
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    clear: both;    
+}
+
+.HeaderLinks
+{
+    display: flex;
+    flex-direction: row;    
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    clear: both;    
+}
+
+.HeaderLink {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    height: 100%;
+    clear: both;    
+}
+
+.MainBanner {
+	display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+    background-image: url(background.jpg);
+    clear: both;    
+}
+
+.Features {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35%;
+    background: #ffffff;
+    clear: both;    
+}
+
+.Feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    background: #ffffff;
+    clear: both;
+}
+
+.Banners {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: #ffffff;
+    clear: both;
+}
+
+.Banner {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 50%;
+    clear: both;
+}
+
+
+.Employees {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    padding: 3%;
+    background: #ffffff;
+    clear: both;
+}
+
+.Employee {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: start;
+    width: 15%;
+    height: 80%;
+    padding: 5% 0;
+    clear: both;
+}
+
+
+.Slider {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: #ffffff;
+    clear: both;
+}
+
+.Slide {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    clear: both;
+}
+
+.Start {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background: #ffffff;
+    clear: both;    
+}
+
+footer {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background: #2a2d48;
+    clear: both;    
+}
+
+.FooterLinks {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    background: #3a3e64;
+    clear: both;    
+}
+
+.FooterLink {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    width: 23%;
+    height: 70%;
+    background: #3a3e64;
+    clear: both;    
+}
+
+.Copyright {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    background: #313454;
+    clear: both;    
+}
+
+
+
+h1 {
+    color: white;
+	font-size: xxx-large;
+	font-family: 'Avantgarde', 'Verdana', sans-serif;
+	text-align: center;
+    margin: 1%;
+}
+
+h2 {
+    color: white;
+    font-size: small;
+	font-family: 'Courier', 'Verdana', sans-serif;
+	text-align: center;
+    margin: 0%;
+}
+
+h3 {
+    color: white;
+    font-size: x-small;
+	font-family: 'Avantgarde', 'Verdana', sans-serif;
+	text-align: center;
+    margin: 1%;
+}
+
+h4 {
+    color: black;
+	font-size: x-small;
+	font-family: 'Avantgarde', 'Verdana', sans-serif;
+    margin: 5% 1%;
+}
+
+h5 {
+    color: #444649;
+	font-size: large;
+	font-family: 'Courier', 'Verdana', sans-serif;
+    margin: 5% 0 0;
+}
+
+h6 {
+    color: #f19797;
+	font-size: x-small;
+	font-family: 'Avantgarde', 'Verdana', sans-serif;
+    margin: 1%;
+}
+
+p {
+    color: gray;
+	font-size: x-small;
+	font-family: 'Avantgarde', 'Verdana', sans-serif;
+}
+
+button {
+    color: white;
+    background: #e84545;
+	border: #e84545;
+	font-family: 'Avantgarde', 'Verdana', sans-serif;
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+    padding: 1% 5%;
+    margin: 3% 0 1%;
+}
